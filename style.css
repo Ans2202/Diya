@@ -1,0 +1,58 @@
+body {
+
+    background-color: #d8baba;
+  }
+
+  .container{
+    display: flex;
+    place-items: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .diya {
+    position: absolute;
+    height: 150px;
+    width: 300px;
+    background-color: #fdd835;
+    overflow: hidden;
+    border-radius: 0 0 1500px 1500px;
+    border: 5px solid;
+    border-image: linear-gradient(to right, #ff8f00, #ffeb3b);
+    border-image-slice: 1;
+    box-shadow: 0 0 10px rgba(245, 6, 6, 0.3);
+  }
+    
+  
+  .flame-container {
+    position: relative;
+    width: 300px;
+    height: 60px;
+    margin-bottom: -32px;
+    z-index: 1;
+    background-color: rgb(163, 125, 13);
+    border-radius: 50%;
+    margin-bottom: 150px;
+  }
+   
+  .flame-highlight{
+    height: 170px;
+    width: 170px;
+    background-color: aliceblue;
+    border-radius: 160px 0px;
+    transform: rotate(-45deg);
+    margin-top: -150px;
+    margin-left: 60px;
+    opacity: 0.8;
+  }
+  .flame{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(230, 90, 21);
+    border-radius: 160px 0px;
+    transform : rotate(-45deg);
+    margin-top: -145px;
+    margin-left: 70px;
+    opacity: 0.6;
+  }
+  
